@@ -2,7 +2,7 @@
    "type": "module",
    "scripts": {
       "dev": "tsx src/server.ts",
-      "build": "tsc -b",
+      "build": "tsc -b && ls dist",
       "start": "node dist/server.js",
       "migrate:dev": "pnpx prisma migrate dev",
       "format": "prettier --write \"src/**/*.{ts,js,json}\" --ignore-unknown",
