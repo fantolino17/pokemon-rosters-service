@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createRoster, deleteRoster, getRoster, getRosters, updateRoster } from "../controllers/roster";
+import { createRoster, deleteRoster, getRoster, getRosters, updateRoster } from "../controllers/roster.js";
 
 const route = Router();
 

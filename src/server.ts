@@ -2,7 +2,7 @@
 import 'dotenv/config.js'
 import http from "http";
 import express from 'express';
-import rosterRoutes from './routes/roster';
+import rosterRoutes from './routes/roster.js';
 import cors from 'cors';
 
 const app = express();
