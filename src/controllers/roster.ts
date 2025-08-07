@@ -1,4 +1,4 @@
-import { supabase } from "../clients/supabaseClient"
+import { supabase } from "../clients/supabaseClient.js"
 import type { Roster } from "../types/roster.js"
 
 // TODO: Implement server side sorting and pagination.
